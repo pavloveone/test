@@ -1,0 +1,9 @@
+.header-content__container {
+    width: 70%;
+}
+
+@media screen and (max-width: 375px) {
+    .header-content__container {
+        width: 50%;
+    }
+}

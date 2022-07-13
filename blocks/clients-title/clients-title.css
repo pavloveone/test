@@ -1,0 +1,25 @@
+.clients-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #121920;
+    padding: 70px 0 30px 0;
+    width: 82%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .clients-title {
+        width: 96%;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .clients-title {
+        width: 90%;
+    }
+}

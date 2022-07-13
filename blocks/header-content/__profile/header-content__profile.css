@@ -1,0 +1,11 @@
+.header-content__profile {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #EBEBF1;
+}
+
+@media screen and (max-width: 375px) {
+    .header-content__profile {
+        border: none;
+    }
+}

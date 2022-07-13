@@ -1,0 +1,23 @@
+.header-content {
+    width: 82%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .header-content {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header-content {
+        flex-flow: column wrap;
+        width: 90%;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
